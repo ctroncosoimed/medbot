@@ -7,7 +7,7 @@ RUN \
   npm install --save --production --silent \
     hubot-business-cat hubot-trello hubot-plusplus hubot-mongodb-brain
 
-COPY my-scripts.json external-scripts.json
+COPY external-scripts.json external-scripts.json
 
 CMD ["-a", "hipchat"]
 
