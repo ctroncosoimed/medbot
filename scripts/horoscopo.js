@@ -8,7 +8,7 @@
 //   None
 //
 // Commands:
-//   huemul horóscopo <signo zodiacal>
+//   medbot horóscopo <signo zodiacal>
 //
 // Author:
 //

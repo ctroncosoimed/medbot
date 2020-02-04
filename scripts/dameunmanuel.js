@@ -8,7 +8,7 @@
 //   None
 //
 // Command:
-//   huemul dame un keldor
+//  medbot dame un manuel
 //
 // Author:
 //   @ceto

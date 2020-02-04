@@ -1,19 +1,9 @@
 version: '2'
 services:
-  redis:
-    image: redis
-    volumes:
-      - redis:/data
   hubot:
     image: kylev/hubot
     command: -a slack
-    depends_on:
-      - redis
     environment:
-      HUBOT_SLACK_TOKEN: xoxb-302399241078-575753672147-CsMvtYqcKzWSuqSMgRoZyeTe
-      REDIS_URL: redis://redis
+      HUBOT_SLACK_TOKEN: xoxb-302399241078-937815978871-yFEYnjG2PTmcChjvOLj0QDiZ
     volumes:
-      - .:/hubot        
-
-volumes:
-  redis:
+      - .:/hubot
